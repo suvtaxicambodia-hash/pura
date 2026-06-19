@@ -1,0 +1,6 @@
+{
+  "name": "Pura Durian Natural Khmer",
+  "description": "Premium Durian Retail POS Application designed for Cambodia with offline ABA QR, sales analysis, stock alerts, and expense trackers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
