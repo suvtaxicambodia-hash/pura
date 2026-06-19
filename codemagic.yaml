@@ -12,3 +12,6 @@ script: npm install
 script: cd android && ./gradlew assembleRelease
 artifacts:
 - android/app/build/outputs/apk/**/*.apk
+git add codemagic.yaml
+git commit -m "Update Codemagic configuration"
+git push origin main
