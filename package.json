@@ -33,3 +33,10 @@
     "@types/express": "^4.17.21"
   }
 }
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "cap-init": "npm install @capacitor/core @capacitor/cli && npx cap init Pura com.suvtaxicambodia.pura --web-dir=dist && npm install @capacitor/android && npx cap add android && npx cap sync"
+  },
